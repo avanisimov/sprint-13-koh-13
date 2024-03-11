@@ -57,8 +57,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+
                     android:gravity="center"
-                    android:text="-" />
+                    android:text="-"
+                    android:background = "?attr/selectableItemBackgroundBorderless"
+                    />
 
                 <TextView
                     android:id="@+id/count"
@@ -72,8 +77,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+
                     android:gravity="center"
-                    android:text="+" />
+                    android:text="+"
+                    android:background = "?attr/selectableItemBackgroundBorderless"/>
 
             </LinearLayout>
 
