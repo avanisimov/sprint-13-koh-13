@@ -185,11 +185,13 @@ class MainActivity : AppCompatActivity() {
                 ScreenMode.CATALOG -> {
                     binding.catalogContainer.visibility = View.VISIBLE
                     binding.cartContainer.visibility = View.GONE
+                    binding.toolbar.setTitle(R.string.catalog_title)
                 }
 
                 ScreenMode.CART -> {
                     binding.catalogContainer.visibility = View.GONE
                     binding.cartContainer.visibility = View.VISIBLE
+                    binding.toolbar.setTitle(R.string.cart_title)
                 }
             }
             currentScreenMode = newScreenMode
